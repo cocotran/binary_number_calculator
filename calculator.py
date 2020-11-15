@@ -12,6 +12,6 @@ class Calculator():
 		postfix_obj = Postfix(self.infix_to_postfix(string))
 		return postfix_obj.evaluate()
 
-# Only work with unsign binary numbers
+# Only work with unsigned binary numbers
 calculator = Calculator()
 print(calculator.calculatate("101 + (100 * 10) - 111"))
